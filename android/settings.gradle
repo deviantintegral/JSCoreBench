@@ -1,0 +1,3 @@
+rootProject.name = 'JSCoreBench'
+
+include ':app'
