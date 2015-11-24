@@ -9,14 +9,12 @@ var {
   View,
 } = React;
 
-var Octane = require('../../lib/benchmark-octane/lib/octane/base.js');
-global.BenchmarkSuite = Octane.BenchmarkSuite;
-global.Benchmark = Octane.Benchmark;
-global.BenchmarkResult = Octane.BenchmarkResult;
-
-var Box2D = require('../../lib/benchmark-octane/lib/octane/box2d.js');
-var RayTrace = require('../../lib/benchmark-octane/lib/octane/raytrace.js');
-var CodeLoad = require('../../lib/benchmark-octane/lib/octane/code-load.js');
+var Octane = require('benchmark-octane2');
+var {
+  Box2D,
+  CodeLoad,
+  RayTrace,
+} = Octane;
 
 var Benchmark = React.createClass({
 
