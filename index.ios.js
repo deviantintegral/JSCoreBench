@@ -5,4 +5,4 @@
 'use strict';
 
 var React = require('react-native');
-require('app/entry.js');
+require('./app/entry.js');
